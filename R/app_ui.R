@@ -98,6 +98,7 @@ app_ui <- function(request) {
 
 }
 
+
 #' Add external Resources to the Application
 #'
 #' This function is internally used to add external
