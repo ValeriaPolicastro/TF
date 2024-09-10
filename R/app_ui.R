@@ -69,7 +69,8 @@ app_ui <- function(request) {
 
           tabItem(
             tabName = "plotatactab",
-            fluidRow(h4("plot atac"))
+            fluidRow(h4("plot atac")),
+            plotOutput('plot1')
             ),
 
           tabItem(
